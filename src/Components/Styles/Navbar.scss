@@ -48,9 +48,9 @@
     .navbar-list__item {
       font-weight: bold;
       color: $navbar-fontcolor;
+      cursor: pointer;
 
       &:hover {
-        cursor: pointer;
         color: $secondary-blue;
         transition: 0.5s;
       }
